@@ -25,4 +25,9 @@ public class TripEntity {
 
     @Column(name = "averageMph")
     private Double averageMph;
+
+    public static TripEntity fromTripDto(TripDto tripDto) {
+        TripEntity tripEntity = new TripEntity(tripDto.getTripId(), tripDto.getModel(), tripDto.getAverageMph());
+        return tripEntity;
+    }
 }

@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 public class TripController {
     private TripService tripService;
@@ -17,6 +19,12 @@ public class TripController {
     public TripDto getTrip(@PathVariable Integer tripId) {
         TripDto tripDto = tripService.findTrip(tripId);
         return tripDto;
+    }
+
+    @RequestMapping(path = "/trip", method = RequestMethod.GET)
+    public List<TripDto> getTrips() {
+        List<TripDto> allTrips = tripService.findAllTrips();
+        return allTrips;
     }
 
     @RequestMapping(path = "/trip", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
