@@ -14,7 +14,7 @@ Spock is a testing and specification framework for Java and Groovy apps
 
 #HSLIDE
 
-Spock is Compatibility
+Compatibility
 - All IDEs that support jUnit
 - SonarQube
 - Spring
@@ -46,5 +46,6 @@ class HashMapSpec extends Specification {
         notThrown NullPointerException
     }
 }
+
 ```
 
