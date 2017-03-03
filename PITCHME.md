@@ -120,6 +120,8 @@ when(mock.someMethod(any(), 10)).thenReturn(20);
 mock.someMethod(_, 10) >> 20
 ```
 
+#VSLIDE
+
 ##Less Boilerplate
 
 Groovy is less verbose and more expressive
