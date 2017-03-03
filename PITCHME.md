@@ -2,7 +2,7 @@
 
 ##Writing Better Java Tests with Spock
 
-[:octocat:/ssheftel/spock-demo](https://github.com/ssheftel/spock-demo)
+[github.com/ssheftel/spock-demo](https://github.com/ssheftel/spock-demo)
 
 #HSLIDE
 
