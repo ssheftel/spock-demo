@@ -133,6 +133,22 @@ when(mock.someMethod(any(), 10)).thenReturn(20);
 mock.someMethod(_, 10) >> 20
 ```
 
+##Interactions Expressions
+ 
+ ```java
+restTemplate.postForEntity(url, msg1, msg2)
+```
+ 
+ With Mockito
+```java
+verify(restTemplate, times(1)).postForEntity(eq("site-url"), anyObject(), anyObject())
+```
+
+With Spock
+```groovy
+1 * restTemplate.postForEntity("site-url", _, _)
+```
+
 #VSLIDE
 
 ##Less Boilerplate
