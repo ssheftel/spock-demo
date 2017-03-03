@@ -116,6 +116,8 @@ def "Client should have a bonus if he spends more than 100 dollars"() {
 when(mock.someMethod(any(), 10)).thenReturn(20);
 ```
 
+<div style="text-align:center">VS</div>
+
 ```groovy
 mock.someMethod(_, 10) >> 20
 ```
