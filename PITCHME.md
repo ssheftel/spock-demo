@@ -50,7 +50,6 @@ class HashMapSpec extends Specification {
 }
 
 ```
-[web console](https://meetspock.appspot.com/script/5090845673914368)
 
 #HSLIDE
 
