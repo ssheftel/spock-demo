@@ -7,6 +7,7 @@ project for demoing spock spock features
 
 - `git checkout origin/demo-1-adding-spock`
 - `git checkout origin/demo-2-controller-test`
+- `git checkout origin/demo-3-simple-classes`
 
 Get All Trips - `curl -X GET  http://localhost:8080/trip`
 
