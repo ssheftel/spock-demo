@@ -23,7 +23,6 @@ Spock is Compatibility
 
 > What makes it stand out from the crowd is its beautiful and highly expressive specification language.
 
-
 #HSLIDE
 
 ##Syntax
