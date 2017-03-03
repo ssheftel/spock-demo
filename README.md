@@ -2,3 +2,14 @@
 
 # spock-demo
 project for demoing spock spock features
+
+##
+
+- `git checkout origin/demo-1-adding-spock`
+
+Get All Trips - `curl -X GET  http://localhost:8080/trip`
+
+Get Trip By Id - `curl -X GET http://localhost:8080/trip/1`
+
+Post New Trip `curl -H "Content-Type: application/json" -X POST -d '{"model": "Corolla",  "averageMph": 29.7}' http://localhost:8080/trip`
+
