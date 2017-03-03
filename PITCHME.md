@@ -21,7 +21,7 @@ Spock is a testing and specification framework for Java and Groovy apps
 - increasingly popular for java testing
 
 
-![](https://camo.githubusercontent.com/9d97ef423cdcfcef614c8527596b1e0d3e73cd25/687474703a2f2f636f646570697065732e636f6d2f626f6f6b2f6a6176612d74657374696e672d776974682d73706f636b2d626f6f6b2e6a7067 | width=100)
+<img src="https://camo.githubusercontent.com/9d97ef423cdcfcef614c8527596b1e0d3e73cd25/687474703a2f2f636f646570697065732e636f6d2f626f6f6b2f6a6176612d74657374696e672d776974682d73706f636b2d626f6f6b2e6a7067" width="200" />
 
 #HSLIDE
 
